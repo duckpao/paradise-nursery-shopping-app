@@ -1,0 +1,31 @@
+/* Giao diện nền cho landing page Paradise Nursery */
+.landing-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('https://images.unsplash.com/photo-1463936575829-25148e1db1b8?q=80&w=1200');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.get-started-btn {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #27ae60;
+}
